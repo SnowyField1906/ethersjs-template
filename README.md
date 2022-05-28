@@ -2,9 +2,6 @@
   - ReactJS
   - Hardhat
   - Solidity
-  - Chainlink
-  - Dotenv
-  - EthersJS
   - TailwindCSS
 
 ### It was also modified in advance to suit a project.
