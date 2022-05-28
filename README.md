@@ -18,7 +18,7 @@ git clone https://github.com/SnowyField1906/dApp-web3.0-template/`
 
 **Step 2: Download necessary `npm` files/libraries:**
 ```
-npm install`
+npm install
 ```
 
 **Step 3: Try running it in your localhost:**
