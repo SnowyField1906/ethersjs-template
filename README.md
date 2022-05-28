@@ -21,7 +21,7 @@ git clone https://github.com/SnowyField1906/dApp-web3.0-template/`
 npm install`
 ```
 
-**Step 3: Try running it:**
+**Step 3: Try running it in your localhost:**
 ```
 npm run start
 ```
