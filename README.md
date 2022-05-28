@@ -10,7 +10,7 @@
 
 **Step 1: Clone the repository:**
 ```
-git clone https://github.com/SnowyField1906/dApp-web3.0-template/`
+git clone https://github.com/SnowyField1906/dApp-web3.0-template/
 ```
 
 **Step 2: Download necessary `npm` files/libraries:**
