@@ -1,11 +1,16 @@
-Step 1: Clone the reposibility
+### This pre-built repository included: ReactJS, Hardhat, Solidity, Chainlink, Dotenv, EthersJS, TailwindCSS.
 
-  `git clone https://github.com/SnowyField1906/dApp-web3.0-template/`
+Step 1: Clone the repository: <br/>  `git clone https://github.com/SnowyField1906/dApp-web3.0-template/`
   
-Step 2: Download necessary `npm` files/libraries
+Step 2: Download necessary `npm` files/libraries: <br/>  `npm install`
 
-  `npm install`
+Step 3: Try running it: <br/>  `npm run start`
 
-Step 3: Run it
+Step 4: Commit and push it into your own repository:<br/>
 
-  `npm run start`
+```
+git init
+git commit -m "first commit"
+git remote add origin <your repository's link>
+git push -u origin main
+```
