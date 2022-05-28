@@ -29,6 +29,7 @@ npm run start
 **Step 4: Commit and push it into your own repository:**
 ```
 git init
+git add .
 git commit -m "first commit"
 git remote add origin <your repository's link>
 git push -u origin main
