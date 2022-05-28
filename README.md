@@ -7,7 +7,9 @@
   - EthersJS
   - TailwindCSS
 
-### It was also modified in advance to suit a project
+### It was also modified in advance to suit a project.
+
+### Follow these steps:
 
 **Step 1: Clone the repository:**
 ```
