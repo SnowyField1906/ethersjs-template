@@ -16,7 +16,6 @@ const App = () => {
       <Services />
       <Transactions />
       <Footer />
-      <h1 className="text-3xl font-bold underline">thuan</h1>
     </div>
   );
 }
