@@ -2,20 +2,29 @@ import React from 'react';
 import { useState } from 'react';
 import { HiMenuAlt4 } from 'react-icons/hi';
 import { AiOutlineClose } from 'react-icons/ai';
+import logo from './images/logo.png'
 
-import NavbarItem from './NavbarItem';
 
-import logo from './../images/logo.png';
-
+const NavbarItem = ({title, classProps }) =>{
+    return (
+        <li className={`mx-4 cursor-pointer ${classProps}`}>
+            {title}
+        </li>
+    );
+}
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
-    return (
-        <nav className='w-full flex md: justify-center  items-center p-4'>
 
+    return (
+        <nav className='w-full flex md: justify-center items-center p-4'>
+            <div className='md: inline-flex flex-[0.85] justify-center items-center '>
+                <img src={logo} alt="logo" className='w-20 cursor-pointer' />
+                <h5 className='flex-1 text-4xl mx-3 text-white "font-Baloo'>ethereum</h5>
+            </div>
             <ul className='text-white md:flex hiddent list-none flex-row justify-betwen items-center flex-initial'>
                   {["Market", "Exchange", "Tutorials", "Wallet"].map((item, index)=>(<NavbarItem key={item + index} title={item}/>))}
-
+                 
                  <li className='bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]' >
                      Login
                  </li>
@@ -26,7 +35,11 @@ const Navbar = () => {
                 : <HiMenuAlt4 fontSize={28} className="text-white md:hidden cursor-pointer" onClick={()=>setToggleMenu(true)} />
                 }
                 {toggleMenu && (
-                    <ul>
+                    <ul 
+                    className='z-10 fixed top-0 -right-2 p-3 w-[70-vw] h-screen shadow-2xl md:hidden list-none
+                    flex flex-col justify-start items-end rounded-md blue-glassmorphism text-white animate-slide-in
+                    '
+                    >
                         <li className='text-xl w-full my-2'>
                             <AiOutlineClose onClick={()=> setToggleMenu(false)} />
                         </li>
