@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import { contractABI, contractAddress } from '../util/constants';
 
 export const TransactionContext = React.createContext();
+
 const ethers = require("ethers");
 const { ethereum } = window;
 
