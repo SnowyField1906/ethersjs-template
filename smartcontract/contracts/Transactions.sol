@@ -18,7 +18,7 @@ contract Transactions {
 
     TransferSystem [] transactions;
 
-    function addToBlockchain(address payable receiver, uint amount, string memory message, string memory keyword) public{
+    function addToBlockchain(address payable receiver, uint amount, string memory message, string memory keyword) public {
         transactionCount +=1;
         transactions.push(TransferSystem(msg.sender, receiver, amount, message, block.timestamp, keyword));
         emit Transfer(msg.sender, receiver, amount, message, block.timestamp, keyword);
@@ -26,7 +26,7 @@ contract Transactions {
     function getAllTransactions() public view returns (TransferSystem[] memory){
         return transactions;
     }
-    function getTransactionCount() public view returns (uint256){
+    function getTransactionCount() public view returns (uint256) {
         return transactionCount;
     }
 
