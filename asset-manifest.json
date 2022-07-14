@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dApp-project/static/css/main.ab5e542e.css",
-    "main.js": "/dApp-project/static/js/main.ca67a8be.js",
-    "static/js/787.633816a4.chunk.js": "/dApp-project/static/js/787.633816a4.chunk.js",
-    "static/media/logo.png": "/dApp-project/static/media/logo.54c724d99576bd484911.png",
-    "index.html": "/dApp-project/index.html",
-    "main.ab5e542e.css.map": "/dApp-project/static/css/main.ab5e542e.css.map",
-    "main.ca67a8be.js.map": "/dApp-project/static/js/main.ca67a8be.js.map",
-    "787.633816a4.chunk.js.map": "/dApp-project/static/js/787.633816a4.chunk.js.map"
+    "main.css": "/dApp-project-1/static/css/main.ab5e542e.css",
+    "main.js": "/dApp-project-1/static/js/main.fec01fb3.js",
+    "static/js/787.633816a4.chunk.js": "/dApp-project-1/static/js/787.633816a4.chunk.js",
+    "static/media/logo.png": "/dApp-project-1/static/media/logo.54c724d99576bd484911.png",
+    "index.html": "/dApp-project-1/index.html",
+    "main.ab5e542e.css.map": "/dApp-project-1/static/css/main.ab5e542e.css.map",
+    "main.fec01fb3.js.map": "/dApp-project-1/static/js/main.fec01fb3.js.map",
+    "787.633816a4.chunk.js.map": "/dApp-project-1/static/js/787.633816a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab5e542e.css",
-    "static/js/main.ca67a8be.js"
+    "static/js/main.fec01fb3.js"
   ]
 }
