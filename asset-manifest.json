@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dApp-ethers-project/static/css/main.ab5e542e.css",
-    "main.js": "/dApp-ethers-project/static/js/main.5a5f442e.js",
-    "static/js/787.633816a4.chunk.js": "/dApp-ethers-project/static/js/787.633816a4.chunk.js",
-    "static/media/logo.png": "/dApp-ethers-project/static/media/logo.54c724d99576bd484911.png",
-    "index.html": "/dApp-ethers-project/index.html",
-    "main.ab5e542e.css.map": "/dApp-ethers-project/static/css/main.ab5e542e.css.map",
-    "main.5a5f442e.js.map": "/dApp-ethers-project/static/js/main.5a5f442e.js.map",
-    "787.633816a4.chunk.js.map": "/dApp-ethers-project/static/js/787.633816a4.chunk.js.map"
+    "main.css": "/dApp-web3-project/static/css/main.ab5e542e.css",
+    "main.js": "/dApp-web3-project/static/js/main.6ad1c625.js",
+    "static/js/787.633816a4.chunk.js": "/dApp-web3-project/static/js/787.633816a4.chunk.js",
+    "static/media/logo.png": "/dApp-web3-project/static/media/logo.54c724d99576bd484911.png",
+    "index.html": "/dApp-web3-project/index.html",
+    "main.ab5e542e.css.map": "/dApp-web3-project/static/css/main.ab5e542e.css.map",
+    "main.6ad1c625.js.map": "/dApp-web3-project/static/js/main.6ad1c625.js.map",
+    "787.633816a4.chunk.js.map": "/dApp-web3-project/static/js/787.633816a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab5e542e.css",
-    "static/js/main.5a5f442e.js"
+    "static/js/main.6ad1c625.js"
   ]
 }
